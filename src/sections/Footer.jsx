@@ -2,25 +2,23 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div className='flex justify-between items-center w-full px-8 py-6 border-t border-gray-800 bg-[#0a0a0a] text-white'>
+    <footer className='flex flex-col md:flex-row justify-between items-center w-full px-4 md:px-10 py-8 md:py-6 border-t border-[#1f232a] bg-[#0a0a0a] text-white gap-6 md:gap-0'>
       
-      <div className='text-lg font-semibold flex-1'>
+      <div className='text-xl md:text-2xl font-bold flex-1 text-center md:text-left w-full' aria-label="First 100">
         First<span className='text-[#d4af37]'>100</span>
       </div>
       
-      {/* Center: Copyright */}
-      <div className='text-sm text-gray-400 flex-1 text-center'>
+      <div className='text-[11px] md:text-xs text-[#a6a9b1] flex-1 text-center order-last md:order-0 w-full'>
         © 2025 First100. All rights reserved.
       </div>
       
-      {/* Right: Links */}
-      <div className='flex justify-end gap-8 text-[12px] font-medium text-gray-300 flex-1 tracking-wide'>
-        <a href="#privacy" className='hover:text-white transition-colors'>PRIVACY</a>
-        <a href="#terms" className='hover:text-white transition-colors'>TERMS</a>
-        <a href="#contact" className='hover:text-white transition-colors'>CONTACT</a>
+      <div className='flex justify-center md:justify-end gap-6 md:gap-8 text-[11px] md:text-xs font-bold text-[#a6a9b1] flex-1 tracking-widest w-full'>
+        <a href="#privacy" className='hover:text-[#d4af37] md:hover:text-white transition-colors'>PRIVACY</a>
+        <a href="#terms" className='hover:text-[#d4af37] md:hover:text-white transition-colors'>TERMS</a>
+        <a href="#contact" className='hover:text-[#d4af37] md:hover:text-white transition-colors'>CONTACT</a>
       </div>
 
-    </div>
+    </footer>
   );
 }
 
