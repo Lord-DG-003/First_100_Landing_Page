@@ -13,8 +13,8 @@ const Footer = () => {
       </div>
       
       <div className='flex justify-center md:justify-end gap-6 md:gap-8 text-[11px] md:text-xs font-bold text-[#a6a9b1] flex-1 tracking-widest w-full'>
-        <a href="#privacy" className='hover:text-[#d4af37] md:hover:text-white transition-colors'>PRIVACY</a>
-        <a href="#terms" className='hover:text-[#d4af37] md:hover:text-white transition-colors'>TERMS</a>
+        <a href="https://www.notion.so/Privacy-Policy-3b41d86144e6800f8c62d67193df23aa?source=copy_link" className='hover:text-[#d4af37] md:hover:text-white transition-colors'>PRIVACY</a>
+        <a href="https://www.notion.so/Terms-Conditions-3b41d86144e6809f92cbd3e8eceb7146?source=copy_link" className='hover:text-[#d4af37] md:hover:text-white transition-colors'>TERMS</a>
         <a href="#contact" className='hover:text-[#d4af37] md:hover:text-white transition-colors'>CONTACT</a>
       </div>
 
