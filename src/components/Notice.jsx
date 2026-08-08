@@ -10,7 +10,7 @@ const Notice = () => {
           <span>Important</span>
         </div>
 
-        <p className="text-[#a6a9b1] text-sm md:text-lg leading-relaxed">
+        <p className="text-[#a6a9b1] md:p-0 px-16 text-[16px] md:text-lg leading-relaxed">
           This is a digital product. <span className="text-[#d4af37] font-semibold">No refunds</span> once the payment is made.
         </p>
         

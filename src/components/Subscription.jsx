@@ -23,7 +23,7 @@ const Subscription = () => {
             <div id='purchase'><p className='uppercase tracking-widest pl-3 font-bold text-sm md:text-[15px]'>Get the ebook now</p></div>
         </button>
 
-        <div className='text-[#a6a9b1] mb-12 flex flex-col md:flex-row items-center justify-center mt-6 md:mt-8 text-xs md:text-sm gap-3 md:gap-0'>
+        <div className='text-[#a6a9b1] mb-12 flex items-center justify-center mt-6 md:mt-8 text-xs md:text-sm gap-3 md:gap-0'>
           <div className="flex items-center">
              <LuShieldCheck className="text-lg md:text-base" /> <p className='ml-1.5'>Secure Checkout</p>
           </div>
