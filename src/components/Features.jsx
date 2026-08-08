@@ -9,9 +9,9 @@ const Features = () => {
     const Titles = ["Start From Zero", "Step By Step", "Proven Methods", "Lifetime Access"];
     const Descriptions = ["No skills. No experience. Just a willingness to start.", "Clear, simple steps you can follow at your pace.", "Real methods that actually work for beginners.", "One-time payment. Read anytime, anywhere."];
   return (
-    <div className='flex flex-wrap justify-center w-full max-w-237.5 mx-auto gap-4 md:gap-5 mt-10  md:mt-10 px-4'>
+    <div className='flex flex-wrap justify-center md:w-full md:border-0 w-90 rounded-xl max-w-237.5 mx-auto gap-4 md:gap-5 mt-10  md:mt-10 px-4 border border-[#1f232a]'>
         {Logos.map((Logo,index)=>(
-          <div key={index} className='flex md:flex-col md:items-center md:text-center border border-[#1f232a] w-full sm:w-[calc(50%-0.75rem)] md:w-[calc(25%-1rem)] pt-8 px-5 pb-8 rounded-xl'>
+          <div key={index} className='flex md:flex-col md:items-center md:text-center md:border md:border-[#1f232a] w-full sm:w-[calc(50%-0.75rem)] md:w-[calc(25%-1rem)] pt-8 px-5 pb-8 rounded-xl'>
             <div className='text-[#d4af37] mb-4'>
               {Logo}
             </div>
