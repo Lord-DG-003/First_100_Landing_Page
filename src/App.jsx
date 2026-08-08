@@ -24,7 +24,7 @@ const ScrollToTop = () => {
 
 const LandingPageLayout = () => {
   return (
-    <div className='bg-[#0d0e11] h-full w-full flex flex-col'>
+    <div className='bg-[#0a0a0a] h-full w-full flex flex-col'>
       <Navbar/>
       <Upper/>
       <Features/>   
