@@ -6,7 +6,7 @@ const Upper = () => {
   return (
     <header className='text-[#ffffff] flex flex-col w-full items-center mt-8 md:mt-12 px-4'>
 
-       <div className='flex items-center text-[#d4af37] text-[10px] md:text-xs font-medium tracking-wide h-fit w-fit px-3 border-[#1f232a] border py-1.5 rounded-md'>
+       <div className='flex items-center text-[#d4af37] text-[10px] md:text-xs font-medium tracking-wide h-fit w-fit px-3 border-[#1f232a] border py-1.5 rounded-md bg-[#131313]'>
             <LockKeyhole className='size-3 mr-2' aria-hidden="true"/>
             <span>EXCLUSIVE DIGITAL EBOOK</span>
        </div>
