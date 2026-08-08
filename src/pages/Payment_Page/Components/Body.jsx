@@ -3,9 +3,12 @@ import { FiAlertCircle } from "react-icons/fi";
 
 const Checkout = () => {
   const [email, setEmail] = useState('');
-  const handleClick=()=>{
-    
-  }
+  const handlePayPalClick = () => {
+    // Break long URLs by concatenating them if needed, 
+    // or just leave them as one string.
+    window.location.href = 
+      "https://www.paypal.com/ncp/payment/V2YHE4KCSQ932"; 
+  };
 
   return (
     <div className="min-h-screen bg-black text-white p-4 md:p-8 font-sans flex justify-center items-start">
@@ -25,6 +28,7 @@ const Checkout = () => {
             <label className="text-sm font-medium text-neutral-300">Email Address</label>
             <input
               type="email"
+              required
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="youremail@gmail.com"
@@ -60,11 +64,11 @@ const Checkout = () => {
           </div>
 
           {/* Checkout Button */}
-          <button className="w-full bg-[#FFC439] hover:bg-[#FFC439]/90 text-black font-semibold py-3.5 rounded-xl flex items-center justify-center gap-2 transition-colors mt-2 cursor-pointer active:scale-90" onClick={handleClick}>
+          <button className="w-full bg-[#FFC439] hover:bg-[#FFC439]/90 text-black font-semibold py-3.5 rounded-xl flex items-center justify-center gap-2 transition-colors mt-2 cursor-pointer active:scale-90" onClick={handlePayPalClick}>
             <span className="font-bold italic">PayPal</span>
             <span>Pay with PayPal</span>
           </button>
-
+x
           {/* Trust Badges */}
           <div className="grid grid-cols-3 gap-4 pt-4 border-t border-neutral-800 mt-2">
             <div className="flex flex-col md:flex-row items-center md:items-start gap-2 text-center md:text-left">
