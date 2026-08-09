@@ -9,7 +9,7 @@ const Footer = () => {
       </div>
       
       <div className='text-[11px] md:text-xs text-[#a6a9b1] flex-1 text-center order-last md:order-0 w-full'>
-        © 2025 First100. All rights reserved.
+        © 2026 First100. All rights reserved.
       </div>
       
       <div className='flex justify-center md:justify-end gap-6 md:gap-8 text-[11px] md:text-xs font-bold text-[#a6a9b1] flex-1 tracking-widest w-full'>
