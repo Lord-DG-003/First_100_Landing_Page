@@ -21,7 +21,7 @@ const Upper = () => {
             </span>
        </h1>
        
-       <p className='w-full text-[#a6a9b1] text-center mt-5 md:mt-6 text-sm md:text-[21px] leading-relaxed font-inter'>
+       <p className='w-full text-[#a6a9b1] text-center mt-5 md:mt-6 text-sm md:text-[21px] leading-relaxed font-inter md:px-0 px-20'>
             <span className="block">A practical guide for students to earn their first $100</span>
             <span className="block">online - no experience, no fluff.</span>
        </p>
