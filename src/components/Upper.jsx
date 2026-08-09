@@ -12,7 +12,7 @@ const Upper = () => {
        </div>
 
        <h1 
-         className='w-full text-5xl md:text-6xl lg:text-[70px] font-bold text-center mt-5 md:mt-6 leading-[1.05]'
+         className='w-full text-5xl md:text-7xl lg:text-[85px] font-bold text-center mt-5 md:mt-6 leading-[1.05]'
          aria-label="Make Your First $100."
        >
             <span className="block" aria-hidden="true">Make Your</span>
@@ -21,7 +21,7 @@ const Upper = () => {
             </span>
        </h1>
        
-       <p className='w-full text-[#a6a9b1] text-center mt-5 md:mt-6 text-sm md:text-[17px] leading-relaxed'>
+       <p className='w-full text-[#a6a9b1] text-center mt-5 md:mt-6 text-sm md:text-[21px] leading-relaxed'>
             <span className="block">A practical guide for students to earn their first $100</span>
             <span className="block">online - no experience, no fluff.</span>
        </p>

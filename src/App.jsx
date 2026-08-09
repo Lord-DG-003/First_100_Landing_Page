@@ -24,7 +24,7 @@ const ScrollToTop = () => {
 
 const LandingPageLayout = () => {
   return (
-    <div className='bg-[#0a0a0a] h-full w-full flex flex-col'>
+    <div className='bg-black h-full w-full flex flex-col'>
       <Navbar/>
       <Upper/>
       <Features/>   
@@ -37,7 +37,6 @@ const LandingPageLayout = () => {
 
 const App = () => {
   return (
-    <div className='font-satoshi'>
       <BrowserRouter>
         <ScrollToTop/>
         <Routes>
@@ -46,7 +45,6 @@ const App = () => {
           <Route path="/thank-you" element={<Thankyou />} />
         </Routes>
       </BrowserRouter>
-    </div>
   )
 }
 
