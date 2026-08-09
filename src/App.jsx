@@ -37,14 +37,16 @@ const LandingPageLayout = () => {
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <ScrollToTop/>
-      <Routes>
-        <Route path="/" element={<LandingPageLayout />} />
-        <Route path="/payment" element={<Payment />} />
-        <Route path="/thank-you" element={<Thankyou />} />
-      </Routes>
-    </BrowserRouter>
+    <div className='font-satoshi'>
+      <BrowserRouter>
+        <ScrollToTop/>
+        <Routes>
+          <Route path="/" element={<LandingPageLayout />} />
+          <Route path="/payment" element={<Payment />} />
+          <Route path="/thank-you" element={<Thankyou />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   )
 }
 

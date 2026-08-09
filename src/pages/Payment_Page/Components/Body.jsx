@@ -11,7 +11,7 @@ const Checkout = () => {
   };
 
   return (
-    <div className="min-h-screen bg-black text-white p-4 md:p-8 font-sans flex justify-center items-start">
+    <div className="min-h-screen bg-black text-white p-4 md:p-8 flex justify-center items-start">
       <div className="max-w-5xl w-full grid grid-cols-1 lg:grid-cols-12 gap-6">
         
         {/* LEFT COLUMN: Checkout Form */}
@@ -68,7 +68,7 @@ const Checkout = () => {
             <span className="font-bold italic">PayPal</span>
             <span>Pay with PayPal</span>
           </button>
-x
+
           {/* Trust Badges */}
           <div className="grid grid-cols-3 gap-4 pt-4 border-t border-neutral-800 mt-2">
             <div className="flex flex-col md:flex-row items-center md:items-start gap-2 text-center md:text-left">
