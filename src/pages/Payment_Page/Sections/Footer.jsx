@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className='flex flex-col md:flex-row justify-between items-center w-full px-4 md:px-10 py-8 md:py-6 border-t border-[#1f232a] bg-black text-white gap-6 md:gap-0 font-inter'>
+    <footer className='flex flex-col md:flex-row justify-between items-center w-full px-4 md:px-10 py-8 md:py-6 border-t border-neutral-800 bg-black text-white gap-6 md:gap-0 font-inter'>
       
       <div className='text-xl md:text-2xl font-bold flex-1 text-center md:text-left w-full' aria-label="First 100">
         First<span className='text-[#d4af37]'>100</span>
