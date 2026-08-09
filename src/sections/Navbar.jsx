@@ -10,7 +10,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className='text-[#ffffff] flex justify-between items-center pt-4 px-4 sm:px-6 md:px-10 font-semibold'>
+    <nav className='text-[#ffffff] flex justify-between items-center pt-4 px-4 sm:px-6 md:px-10 font-semibold font-inter border-b border-[#1f232a] pb-3'>
         
         <div className='text-xl sm:text-2xl' aria-label="First 100">
             First<span className='text-[#dfaf37]'>100</span>

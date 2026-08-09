@@ -3,7 +3,7 @@ import { Box } from 'lucide-react';
 
 const UnitsLeft = () => {
   return (
-    <div className='text-white flex flex-col md:flex-row w-140 items-center justify-center border border-[#1f232a] rounded-xl bg-[#131313] '>
+    <div className='text-white flex flex-col md:flex-row w-160 items-center justify-center border border-[#1f232a] rounded-xl bg-[#131313] font-inter  '>
         <div className='rounded-full h-21 w-21 shrink-0 items-center border justify-center flex md:mx-5 border-[#1f232a] bg-[#16181d] md:mt-4 mt-2'>
             <Box className='size-15 text-[#d4af37]'/>
         </div>
