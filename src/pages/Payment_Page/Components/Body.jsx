@@ -74,7 +74,7 @@ const Checkout = () => {
             </div>
 
             {/* Checkout Button */}
-            <button type='submit' className="w-full bg-[#FFC439] hover:bg-[#FFC439]/90 text-black font-semibold py-3.5 rounded-xl flex items-center justify-center gap-2 transition-colors mt-4 cursor-pointer active:scale-90">
+            <button type='submit' className="w-full bg-[#FFC439] hover:bg-[#FFC439]/90 text-black font-semibold py-3.5 rounded-xl flex items-center justify-center gap-2 mt-4 cursor-pointer active:scale-90 transition-all duration-100 ">
               <span className='h-6.5 w-6.5 object-fill'><img src="/Symbol Alternative.svg" alt="PayPal Logo"/></span>
               <span>Pay with PayPal</span>
             </button>

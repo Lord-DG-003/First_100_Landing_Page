@@ -17,7 +17,7 @@ const Navbar = () => {
         </div>
         
         <button 
-          className='bg-linear-to-b from-[#f5e8c2] to-[#dfaf37] hover:from-[#fabf2b] hover:to-[#e8d49d] cursor-pointer text-xs sm:text-sm md:text-base text-black h-fit w-fit py-1.5 px-4 sm:py-1.5 sm:px-5 rounded-md focus:outline-none focus:ring-2 focus:ring-[#dfaf37] focus:ring-offset-2 focus:ring-offset-black'
+          className='bg-linear-to-b from-[#f5e8c2] to-[#dfaf37] hover:from-[#fabf2b] hover:to-[#e8d49d] cursor-pointer text-xs sm:text-sm md:text-base text-black h-fit w-fit py-1.5 px-4 sm:py-1.5 sm:px-5 rounded-md focus:outline-none focus:ring-2 focus:ring-[#dfaf37] focus:ring-offset-2 focus:ring-offset-black transition-all duration-100 active:scale-95'
           aria-label="Get the eBook" onClick={scrollToComponent}
           >
             GET THE EBOOK

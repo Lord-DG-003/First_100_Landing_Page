@@ -18,7 +18,7 @@ const Subscription = () => {
         <h3 className='text-[#ffffff] text-5xl md:text-6xl font-bold tracking-tight mt-3 md:mt-4 font-satoshi'>
             $27
         </h3>
-        <button className='bg-[#d4af37] font-inter cursor-pointer active:scale-95 transform transition-all text-[#0a0a0a] flex rounded-lg w-full max-w-105 justify-center py-3.5 md:py-4 mt-6 md:mt-8 items-center hover:bg-[#c39b2b]' onClick={handleClick}>
+        <button className='bg-[#d4af37] font-inter cursor-pointer active:scale-95 transform transition-all text-[#0a0a0a] flex rounded-lg w-full max-w-105 justify-center py-3.5 md:py-4 mt-6 md:mt-8 items-center hover:bg-[#c39b2b] duration-100' onClick={handleClick}>
             <LockKeyhole size={18} className="md:size-5"/>
             <div id='purchase'><p className='uppercase tracking-widest pl-3 font-bold text-sm md:text-[15px]'>Get the ebook now</p></div>
         </button>

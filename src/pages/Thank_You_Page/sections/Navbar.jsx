@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className='w-1/4 flex items-center text-sm justify-between'>
             <a href="#about" className='hidden md:block'>About</a>
             <a href="#faq" className='hidden md:block'>FAQ</a>
-            <button className='border px-5 py-1 rounded-md text-[#dfaf37] uppercase cursor-pointer hidden md:block'>
+            <button className='border px-5 py-1 rounded-md text-[#dfaf37] uppercase cursor-pointer hidden md:block transition-all duration-100'>
                 Get More
             </button>
             <VscThreeBars size={24} className='md:hidden ml-14' />

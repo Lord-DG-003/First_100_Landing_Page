@@ -21,7 +21,7 @@ const Navbar = () => {
             <VscLockSmall className='mr-2 md:size-5.5 size-4.5'/>Secure Checkout
         </div>
 
-        <button className='md:flex hidden items-center text-[#c6c6c6] cursor-pointer hover:text-amber-50 active:scale-97' onClick={handleClick}>
+        <button className='md:flex hidden items-center text-[#c6c6c6] cursor-pointer hover:text-amber-50 active:scale-97 transition-all duration-100' onClick={handleClick}>
             <MdKeyboardBackspace className='mr-2' size={24}/>Back to Home
         </button>
         
