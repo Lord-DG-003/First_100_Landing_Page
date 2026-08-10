@@ -24,11 +24,11 @@ const Checkout = () => {
       <div className="max-w-5xl w-full grid grid-cols-1 lg:grid-cols-12 gap-6">
         
         {/* LEFT COLUMN: Checkout Form */}
-        <div className="lg:col-span-7 bg-[#111111] border border-neutral-800 rounded-2xl p-6 md:p-8 flex flex-col gap-6">
+        <div className="lg:col-span-7 bg-[#111111] border border-neutral-800 rounded-2xl p-6 md:p-8 flex flex-col gap-6 order-2 md:order-1">
           
           {/* Header */}
           <div>
-            <div className='flex items-center justify-between pb-2'><h2 className="text-2xl font-semibold mb-1">Checkout</h2><button className='cursor-pointer' onClick={handleClick}><MdKeyboardBackspace size={25} className='md:hidden'/></button></div>
+            <h2 className="text-2xl font-semibold mb-1">Checkout</h2>
             <p className="text-neutral-400 text-sm">Complete your purchase to get instant access.</p>
           </div>
 
@@ -64,7 +64,7 @@ const Checkout = () => {
                     <p className="text-xs text-neutral-400 mt-0.5">Pay securely with your PayPal account.</p>
                   </div>
                 </div>
-                <span className="text-blue-500 font-bold italic text-sm">PayPal</span>
+                <div><span className="text-[#072cea] font-bold italic text-sm">Pay</span><span className="text-[#0f9ef7] font-bold italic text-sm">Pal</span></div>
               </div>
             
               <div className="flex items-center gap-2 mt-2">
@@ -75,7 +75,7 @@ const Checkout = () => {
 
             {/* Checkout Button */}
             <button type='submit' className="w-full bg-[#FFC439] hover:bg-[#FFC439]/90 text-black font-semibold py-3.5 rounded-xl flex items-center justify-center gap-2 transition-colors mt-4 cursor-pointer active:scale-90">
-              <span className="font-bold italic">PayPal</span>
+              <span className='h-6.5 w-6.5 object-fill'><img src="/Symbol Alternative.svg" alt="PayPal Logo"/></span>
               <span>Pay with PayPal</span>
             </button>
   
@@ -119,8 +119,8 @@ const Checkout = () => {
         </div>
 
         {/* RIGHT COLUMN: Order Summary */}
-        <div className="lg:col-span-5 bg-[#111111] border border-neutral-800 rounded-2xl p-6 md:p-8 flex flex-col h-fit">
-          <h2 className="text-xl font-semibold mb-6">Order Summary</h2>
+        <div className="lg:col-span-5 bg-[#111111] border border-neutral-800 rounded-2xl p-6 md:p-8 flex flex-col h-fit order-1 md:order-2 relative">
+          <div className='flex justify-center'><h2 className="text-xl font-semibold mb-6">Order Summary</h2> <button onClick={handleClick} className='flex items-center absolute right-5'><MdKeyboardBackspace size={25} className='md:hidden'/></button> </div>
           
           {/* Product Row */}
           <div className="flex gap-4 mb-8">
@@ -187,7 +187,7 @@ const Checkout = () => {
 
           <div className="mt-8 pt-4 border-t border-neutral-800 flex items-center justify-center gap-2">
             <svg className="w-4 h-4 text-neutral-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
-            <p className="text-xs text-neutral-500">Secure checkout powered by <span className="text-blue-500 font-bold italic">PayPal</span></p>
+            <p className="text-xs text-neutral-500">Secure checkout powered by <span className="text-[#072cea] font-bold italic">Pay</span><span className="text-[#0f9ef7] font-bold italic">Pal</span></p>
           </div>
           
         </div>

@@ -17,8 +17,8 @@ const Navbar = () => {
             First<span className='text-[#dfaf37]'>100</span>
         </div>
         
-        <div className='flex items-center text-[#a6a9b1] px-4'>
-            <VscLockSmall size={24} className='mr-2'/>Secure Checkout
+        <div className='flex items-center text-[#a6a9b1] px-4 text-sm'>
+            <VscLockSmall className='mr-2 md:size-5.5 size-4.5'/>Secure Checkout
         </div>
 
         <button className='md:flex hidden items-center text-[#c6c6c6] cursor-pointer hover:text-amber-50 active:scale-97' onClick={handleClick}>
