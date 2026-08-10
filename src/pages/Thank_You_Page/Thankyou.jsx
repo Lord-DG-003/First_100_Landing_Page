@@ -7,7 +7,7 @@ import Footer from './sections/Footer';
 
 const Thankyou = () => {
   return (
-    <div className='bg-[#0d0e11] h-full w-full flex flex-col'>
+    <div className='bg-black h-full w-full flex flex-col'>
       <Navbar/>
       <Body/>
       <PurchaseNotice/>

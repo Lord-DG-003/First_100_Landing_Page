@@ -9,10 +9,10 @@ const PurchaseNotice = () => {
     const Descriptions=["Didn't receive it? Check your spam folder or contact support.","Please read our Terms of Use."];
 
   return (
-    <div className='flex flex-col justify-center items-center mb-5'>
+    <div className='flex flex-col justify-center items-center mb-5 font-inter'>
         {Logos.map((Logo,index)=>(
             <div className='border border-[#1f232a] flex items-center h-fit w-120 mt-5 py-4 px-4 rounded-md'>
-                <div className='h-18 w-18 rounded-full shrink-0 bg-black flex items-center justify-center mr-1.5'>
+                <div className='h-18 w-18 rounded-full shrink-0 bg-[#161616] flex items-center justify-center mr-1.5'>
                     {Logo}
                 </div>
                <div className='border-l border-[#1f232a]'>

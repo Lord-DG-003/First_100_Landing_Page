@@ -4,8 +4,8 @@ import { FiDownload } from "react-icons/fi";
 
 const Download = () => {
   return (
-    <div className='flex items-center justify-center flex-col'>
-        <button className='flex items-center justify-center h-fit w-fit text-center bg-[#dfaf37] px-12 py-2 mt-6 relative uppercase text-sm rounded-md font-semibold text-[#0d0e11]'>
+    <div className='flex items-center justify-center flex-col font-inter'>
+        <button className='flex items-center justify-center h-fit w-fit text-center bg-linear-to-b from-[#ffe48c] to-[#f9ce41] px-12 py-2 mt-6 relative uppercase text-sm rounded-md font-semibold text-[#0d0e11] cursor-pointer active:scale-95 hover:from-[#ffda61] hover:to-[#ffc400]'>
             <FiDownload className='mr-3' />
             <p>Download Ebook (PDF)</p>
         </button>
