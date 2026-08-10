@@ -4,7 +4,7 @@ import { LuShieldCheck } from "react-icons/lu";
 
 const PurchaseNotice = () => {
 
-    const Logos=[<HiOutlineMail className='text-[#d1a44e] size-12' />,<LuShieldCheck className='text-[#d1a44e] size-12' />];
+    const Logos=[<HiOutlineMail className='text-[#d1a44e] md:size-12 size-10' />,<LuShieldCheck className='text-[#d1a44e] md:size-12 size-10' />];
     const Titles=["We've sent your ebook to your email.","No refunds on digital products."];
     const Descriptions=["Didn't receive it? Check your spam folder or contact support.","Please read our Terms of Use."];
 

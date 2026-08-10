@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { VscThreeBars } from "react-icons/vsc";
 
 const Navbar = () => {
   return (
@@ -9,11 +10,12 @@ const Navbar = () => {
         </div>
         
         <div className='w-1/4 flex items-center text-sm justify-between'>
-            <a href="#about">About</a>
-            <a href="#faq">FAQ</a>
-            <button className='border px-5 py-1 rounded-md text-[#dfaf37] uppercase cursor-pointer'>
+            <a href="#about" className='hidden md:block'>About</a>
+            <a href="#faq" className='hidden md:block'>FAQ</a>
+            <button className='border px-5 py-1 rounded-md text-[#dfaf37] uppercase cursor-pointer hidden md:block'>
                 Get More
             </button>
+            <VscThreeBars size={24} className='md:hidden ml-14' />
         </div>
         
     </nav>

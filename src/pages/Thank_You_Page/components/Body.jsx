@@ -6,13 +6,13 @@ const Body = () => {
   return (
     <div className='min-h-screen flex flex-col items-center justify-center mt-3'>
         <IoIosCheckmarkCircleOutline size={60} className='text-[#d1a44e]'/>
-        <h1 className='text-[#ffffff] text-6xl mt-3 font-semibold font-satoshi'>
+        <h1 className='text-[#ffffff] text-5xl md:text-6xl mt-3 font-semibold font-satoshi'>
             Thank You!
         </h1>
-        <p className='text-[#a6a9b1] mt-1.5 text-lg font-inter  '>
+        <p className='text-[#a6a9b1] mt-1.5 text-base md:text-lg font-inter mb-1   '>
             Your purchase was successful.
         </p>
-        <p className='text-[#a6a9b1] -mt-1 text-lg font-inter'>
+        <p className='text-[#a6a9b1] -mt-1 text-base md:text-lg font-inter'>
             Your ebook is ready to download.
         </p>
         <div className=" bg-[#0d0e11]">
@@ -37,7 +37,7 @@ const Body = () => {
           
           <p className="text-[#d1d1d1] text-[0.82rem] leading-[1.6] font-normal mb-7 font-inter">
             A practical guide for students<br />
-            to earn their first $100 online –<br />
+            to earn their first $100 online -<br />
             no experience, no fluff.
           </p>
           

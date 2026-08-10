@@ -12,7 +12,7 @@ const Download = () => {
         <p className='text-[#a6a9b1] mt-1.5 text-sm'>
             File size: 1.8 MB
         </p>
-        <span className='w-180 h-px bg-[#1f232a] mt-2.5'>
+        <span className='w-180 h-px bg-[#1f232a] mt-2.5 hidden md:block'>
             
         </span>
     </div>
