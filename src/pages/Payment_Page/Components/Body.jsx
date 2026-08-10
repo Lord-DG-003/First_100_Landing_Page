@@ -119,8 +119,8 @@ const Checkout = () => {
         </div>
 
         {/* RIGHT COLUMN: Order Summary */}
-        <div className="lg:col-span-5 bg-[#111111] border border-neutral-800 rounded-2xl p-6 md:p-8 flex flex-col h-fit order-1 md:order-2 relative">
-          <div className='flex justify-center'><h2 className="text-xl font-semibold mb-6">Order Summary</h2> <button onClick={handleClick} className='flex items-center absolute right-5'><MdKeyboardBackspace size={25} className='md:hidden'/></button> </div>
+        <div className="lg:col-span-5 bg-[#111111] border border-neutral-800 rounded-2xl p-6 md:p-8 flex flex-col h-fit order-1 md:order-2">
+          <div className='flex justify-between items-center mb-6'><h2 className="text-xl font-semibold">Order Summary</h2> <button onClick={handleClick}><MdKeyboardBackspace size={35} className='md:hidden pt-2'/></button> </div>
           
           {/* Product Row */}
           <div className="flex gap-4 mb-8">

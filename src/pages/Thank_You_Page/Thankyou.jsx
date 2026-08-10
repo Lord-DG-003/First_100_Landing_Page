@@ -18,14 +18,14 @@ const Thankyou = () => {
   useEffect(() => {
 
     //comment it for testing, you can go to the thankyou page, else you will redirect to the home page if you just write /thank-you at the end of the url.
-    // const queryParams = new URLSearchParams(location.search);
-    // const hasPayPalToken = queryParams.get('token') || queryParams.get('paymentId') || queryParams.get('PayerID');
+    const queryParams = new URLSearchParams(location.search);
+    const hasPayPalToken = queryParams.get('token') || queryParams.get('paymentId') || queryParams.get('PayerID');
 
-    // // If there is no token in the URL, kick them back to the home page immediately
-    // if (!hasPayPalToken) {
-    //   navigate('/'); 
-    //   return; // Stop the rest of the code from running!
-    // }
+    // If there is no token in the URL, kick them back to the home page immediately
+    if (!hasPayPalToken) {
+      navigate('/'); 
+      return; // Stop the rest of the code from running!
+    }
 
     const deductInventory = async () => {
       if (hasUpdated.current) return;
