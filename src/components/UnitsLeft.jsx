@@ -5,7 +5,7 @@ import { db } from '../firebaseConfig';
 
 const UnitsLeft = () => {
 
-    const [units,setUnits]=useState(1842);
+    const [units,setUnits]=useState(null);
 
     useEffect(() => {
     // Point to the inventory/product1 document you created
@@ -15,6 +15,9 @@ const UnitsLeft = () => {
     const unsubscribe = onSnapshot(productRef, (docSnap) => {
       if (docSnap.exists()) {
         setUnits(docSnap.data().units);
+      }
+      else{
+        setUnits(0);
       }
     });
 
@@ -29,7 +32,17 @@ const UnitsLeft = () => {
         </div>
         <div className='flex flex-col md-pt-0  md:pl-4 items-center justify-center w-5/8 md:border-l md:border-[#1f232a] md:my-5 my-1.5'>
             <p className='text-[16px] text-[#d4af37]'>LIMITED TO 2000 UNITS</p>
-            <p className='text-5xl pt-3 md:pt-1'>{units.toLocaleString()}</p>
+            <p className='text-5xl pt-3 md:pt-1'>
+              {units!==null?(
+                units.toLocaleString()
+              ):(
+                <div>
+                  <span className='animate-bounce bg-white rounded-full md:w-6 md:h-6 w-4 h-4 mx-2 inline-block'></span>
+                  <span className='animate-bounce bg-white rounded-full md:w-6 md:h-6 w-4 h-4 mx-2  [animation-delay:200ms] inline-block'></span>
+                  <span className='animate-bounce bg-white rounded-full md:w-6 md:h-6 w-4 h-4 mx-2 [animation-delay:10ms] inline-block'></span>
+                </div>
+              )}
+            </p>
             <p className='text-[18px] pt-3 md:pt-2 text-[#d4af37]'>UNITS LEFT</p>
         </div>
         <div className='text-[18px] md:px-3 mb-4 md:border-l px-20 text-center border-[#1f232a] text-[#a6a9b1]'>
